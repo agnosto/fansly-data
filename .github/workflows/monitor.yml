@@ -1,0 +1,50 @@
+name: Monitor Fansly JS
+
+on:
+  push:
+  schedule:
+    - cron: '0 */12 * * *'  # Run every 12 hours
+  workflow_dispatch:  # Allow manual triggering
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    permissions: 
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Run monitor script
+        run: bun run start
+        env:
+          PRETTIFY_JS: "true"
+          # Optional: Add Fansly token for authenticated requests
+          FANSLY_TOKEN: ${{ secrets.FANSLY_TOKEN }}
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git add data/fansly-js/ data/metadata/
+          git status
+          if [[ -n "$(git status --porcelain)" ]]; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push if changes exist
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "Fansly Monitor"
+          git commit -m "Update Fansly JS files [skip ci]" -a
+          git push

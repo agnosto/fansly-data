@@ -1,0 +1,23 @@
+{
+  "name": "fansly-data-monitor",
+  "description": "Monitor changes to Fansly's main JS file and api",
+  "module": "index.ts",
+  "main": "src/monitor.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun src/monitor.ts",
+    "build": "bun build src/monitor.ts --outdir ./dist"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/node": "^22.15.18",
+    "prettier": "^3.5.3",
+    "puppeteer": "^24.8.2"
+  }
+}
