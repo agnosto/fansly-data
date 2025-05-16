@@ -1,4 +1,4 @@
-import { $ } from "bun";
+//import { $ } from "bun";
 import fs from "node:fs/promises";
 import path from "node:path";
 import crypto from "node:crypto";
@@ -24,6 +24,14 @@ interface ApiRequest {
     url: string;
     method: string;
     headers: Record<string, string>;
+}
+
+interface VersionInfo {
+    platformId: string;
+    version: string;
+    latest: string;
+    ts: number;
+    sessionIp: string;
 }
 
 async function main() {
@@ -62,6 +70,11 @@ async function main() {
     const hash = crypto.createHash("sha256").update(jsContent).digest("hex");
     console.log(`JS file hash: ${hash}`);
 
+    // Fetch version information
+    console.log("Fetching version information...");
+    const versionInfo = await fetchVersionInfo();
+    console.log(`Current version: ${versionInfo?.version}, Latest version: ${versionInfo?.latest}`);
+
     // Check if we already have this file by hash
     const jsDir = "data/fansly-js";
     const metadataDir = "data/metadata";
@@ -74,8 +87,20 @@ async function main() {
     // Check if file with this hash already exists
     const existingFiles = await fs.readdir(jsDir);
     const hashExists = existingFiles.some(file => file.includes(hash.substring(0, 8)));
+
     if (hashExists) {
         console.log("This JS file already exists in the repository. No changes detected.");
+
+        // Even if the JS hasn't changed, we should still update the version info
+        await updateLatestJson(metadataDir, {
+            timestamp: new Date().toISOString(),
+            jsFile: existingFiles.find(file => file.includes(hash.substring(0, 8))) || "",
+            hash,
+            version: versionInfo?.version || "",
+            latestVersion: versionInfo?.latest || "",
+            versionTimestamp: versionInfo?.ts || 0
+        });
+
         return;
     }
 
@@ -139,6 +164,9 @@ async function main() {
         timestamp: new Date().toISOString(),
         filename: mainJsFilename,
         hash,
+        version: versionInfo?.version || "",
+        latestVersion: versionInfo?.latest || "",
+        versionTimestamp: versionInfo?.ts || 0,
         checkKeys,
         headers: allHeaders,
         apiRequests: apiRequests.map(req => ({
@@ -152,15 +180,75 @@ async function main() {
     await fs.writeFile(metadataPath, JSON.stringify(metadata, null, 2));
 
     // Update latest.json with the most recent metadata
-    await fs.writeFile(path.join(metadataDir, "latest.json"), JSON.stringify({
+    await updateLatestJson(metadataDir, {
         timestamp: new Date().toISOString(),
         jsFile: jsFilename,
         hash,
+        versionPlatform: versionInfo?.platformId || "",
+        version: versionInfo?.version || "",
+        latestVersion: versionInfo?.latest || "",
+        versionTimestamp: versionInfo?.ts || 0,
         checkKeys,
         headers: allHeaders.map(h => h.name)
-    }, null, 2));
+    });
 
     console.log("Done!");
+}
+
+async function fetchVersionInfo(): Promise<VersionInfo | null> {
+    try {
+        const response = await fetch("https://apiv3.fansly.com/api/v1/versioning?ngsw-bypass=true", {
+            headers: {
+                "User-Agent": USER_AGENT
+            }
+        });
+
+        // Define the expected response type
+        interface VersionResponse {
+            success: boolean;
+            response: VersionInfo;
+        }
+
+        const data = await response.json() as VersionResponse;
+
+        if (data.success && data.response) {
+            // Redact the sessionIp
+            const versionInfo = { ...data.response };
+            versionInfo.sessionIp = "[REDACTED]";
+            return versionInfo;
+        }
+
+        return null;
+    } catch (error) {
+        console.error("Error fetching version info:", error);
+        return null;
+    }
+}
+
+async function updateLatestJson(metadataDir: string, data: any) {
+    try {
+        // Read existing latest.json if it exists
+        let existingData = {};
+        try {
+            const existingContent = await fs.readFile(path.join(metadataDir, "latest.json"), "utf-8");
+            existingData = JSON.parse(existingContent);
+        } catch (error) {
+            // File doesn't exist or is invalid, use empty object
+        }
+
+        // Merge with new data, preferring new data
+        const mergedData = { ...existingData, ...data };
+
+        // Write updated latest.json
+        await fs.writeFile(
+            path.join(metadataDir, "latest.json"),
+            JSON.stringify(mergedData, null, 2)
+        );
+
+        console.log("Updated latest.json with version information");
+    } catch (error) {
+        console.error("Error updating latest.json:", error);
+    }
 }
 
 function extractCheckKeys(jsContent: string): CheckKeyInfo[] {
@@ -268,7 +356,6 @@ function extractHeadersFromRequests(requests: ApiRequest[]): HeaderInfo[] {
     return headers;
 }
 
-
 function redactSensitiveHeaders(headers: Record<string, string>): Record<string, string> {
     const redactedHeaders = { ...headers };
 
@@ -289,6 +376,7 @@ function redactSensitiveHeaders(headers: Record<string, string>): Record<string,
     if (redactedHeaders.authorization) {
         redactedHeaders.authorization = '[REDACTED]';
     }
+
     if (redactedHeaders.cookie) {
         redactedHeaders.cookie = '[REDACTED]';
     }
@@ -310,14 +398,17 @@ function redactSensitiveHeaders(headers: Record<string, string>): Record<string,
 
 async function captureApiRequests(): Promise<ApiRequest[]> {
     const requests: ApiRequest[] = [];
+
     try {
         // Launch browser
         const browser = await puppeteer.launch({
             headless: true,
             args: ['--no-sandbox', '--disable-setuid-sandbox']
         });
+
         try {
             const page = await browser.newPage();
+
             // Set user agent
             await page.setUserAgent(USER_AGENT);
 
@@ -362,6 +453,13 @@ async function captureApiRequests(): Promise<ApiRequest[]> {
                 await new Promise(resolve => setTimeout(resolve, 5000));
             }
 
+            // Make sure to also capture the versioning API request
+            try {
+                await page.goto('https://apiv3.fansly.com/api/v1/versioning?ngsw-bypass=true', { waitUntil: 'networkidle2' });
+            } catch (error) {
+                // This might fail due to CORS, but the request will still be captured
+            }
+
             console.log(`Captured ${requests.length} API requests`);
         } finally {
             await browser.close();
@@ -379,4 +477,5 @@ main().catch(error => {
     console.error("Error:", error);
     process.exit(1);
 });
+
 
