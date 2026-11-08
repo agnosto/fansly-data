@@ -1,0 +1,2289 @@
+{
+  "timestamp": "2026-11-08T02:48:58.849Z",
+  "filename": "main.4255a014a01c03a4.js",
+  "hash": "595f1d267de7245d8409212c500272ff2451248eca6d3b43b50a1b6b5a8dcc6e",
+  "version": "0.47.45",
+  "latestVersion": "0.47.45",
+  "versionTimestamp": 1794106090165,
+  "checkKeys": [
+    {
+      "pattern": "Array Reverse",
+      "value": "oybZy8-fySzis-bubayf"
+    },
+    {
+      "pattern": "Other",
+      "value": "_e.join(\"-\")}isValid(ne){return!0}getDeviceId(){return this.deviceService?this.deviceService.getDeviceIdSync():\"\"}getSessionId(){if(!this.sessionService)return\"\""
+    }
+  ],
+  "headers": [
+    {
+      "name": "fansly-client-check",
+      "description": "Client check hash value"
+    },
+    {
+      "name": "fansly-client-id",
+      "description": "Client device ID"
+    },
+    {
+      "name": "fansly-client-ts",
+      "description": "Client timestamp"
+    },
+    {
+      "name": "fansly-session-id",
+      "description": "Session ID"
+    }
+  ],
+  "apiRequests": [
+    {
+      "url": "https://apiv3.fansly.com/api/v1/versioning?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/device/id?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/thirdpartyconnect/providers?ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "fansly-client-check,fansly-client-id,fansly-client-ts",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/contentdiscovery/media/suggestionsnew?before=0&after=0&tagIds=&limit=10&offset=0&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "fansly-client-check,fansly-client-id,fansly-client-ts",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/thirdpartyconnect/providers?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-check": "[REDACTED]",
+        "fansly-client-ts": "1794106117526",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/contentdiscovery/media/suggestionsnew?before=0&after=0&tagIds=&limit=10&offset=0&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-check": "[REDACTED]",
+        "fansly-client-ts": "1794106117526",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/versioning?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/account/me?ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/account/me?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106117526",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/unread?limit=100&offset=0&before=0&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/account//wallets?ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/settings?categoryIds=2000,12000,44000,5000&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/unread?limit=100&offset=0&before=0&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106111",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/account//wallets?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106111",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/settings?categoryIds=2000,12000,44000,5000&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106111",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/notifications/unack?ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/notifications/alertsettings?ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/settings?categoryIds=5000&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/subscriptions?ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/orders/products?ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/intercom/authorize?ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/payments/wallets?ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/orders/products?ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/orders/products?ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/messaging/groups?sortOrder=1&flags=0&subscriptionTierId=&listIds=&search=&limit=20&offset=0&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/messaging/groups?sortOrder=1&flags=32&subscriptionTierId=&listIds=&search=&limit=10&offset=0&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/settings?categoryIds=4000&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/timeline/home?before=0&after=0&mode=0&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/streaming/followingstreams/online?ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/mediastories/following?limit=100&offset=0&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/settings?categoryIds=5000&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106111",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/notifications/alertsettings?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106111",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/notifications/unack?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106111",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/subscriptions?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106111",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/orders/products?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106111",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/intercom/authorize?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106111",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/payments/wallets?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106111",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/orders/products?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106111",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/messaging/groups?sortOrder=1&flags=0&subscriptionTierId=&listIds=&search=&limit=20&offset=0&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106111",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/messaging/groups?sortOrder=1&flags=32&subscriptionTierId=&listIds=&search=&limit=10&offset=0&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106111",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/settings?categoryIds=4000&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106111",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/orders/products?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106111",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/timeline/home?before=0&after=0&mode=0&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106111",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/streaming/followingstreams/online?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106111",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/mediastories/following?limit=100&offset=0&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106111",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/unread?limit=100&offset=0&before=975607156080398336&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/unread?limit=100&offset=0&before=975607156080398336&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106111",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/unread?limit=100&offset=0&before=975560202784890880&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/unread?limit=100&offset=0&before=975560202784890880&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/contentdiscovery/suggestions?limit=8&offset=0&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/contentdiscovery/livesuggestions?limit=8&offset=0&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/contentdiscovery/media/suggestionsnew?before=0&after=0&tagIds=&limit=10&offset=0&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/contentdiscovery/suggestions?limit=8&offset=0&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/contentdiscovery/livesuggestions?limit=8&offset=0&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/ack?ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,content-type,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "POST",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/ack?ngsw-bypass=true",
+      "method": "POST",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/unread?limit=100&offset=0&before=975496760203952128&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/ack?ngsw-bypass=true",
+      "method": "POST",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/unread?limit=100&offset=0&before=975496760203952128&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/ack?ngsw-bypass=true",
+      "method": "POST",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/ack?ngsw-bypass=true",
+      "method": "POST",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/versioning?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/account/me?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106127516",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/unread?limit=100&offset=0&before=0&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/account//wallets?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/settings?categoryIds=2000,12000,44000,5000&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/notifications/unack?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/settings?categoryIds=5000&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/subscriptions?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/orders/products?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/intercom/authorize?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/payments/wallets?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/orders/products?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/orders/products?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/messaging/groups?sortOrder=1&flags=0&subscriptionTierId=&listIds=&search=&limit=20&offset=0&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/messaging/groups?sortOrder=1&flags=32&subscriptionTierId=&listIds=&search=&limit=10&offset=0&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/settings?categoryIds=4000&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/timeline/home?before=0&after=0&mode=0&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/streaming/followingstreams/online?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/mediastories/following?limit=100&offset=0&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/unread?limit=100&offset=0&before=975607156080398336&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/unread?limit=100&offset=0&before=975560202784890880&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/contentdiscovery/media/suggestionsnew?before=0&after=0&tagIds=&limit=10&offset=0&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/contentdiscovery/media/suggestionsnew?before=0&after=0&tagIds=&limit=10&offset=0&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/contentdiscovery/suggestions?limit=8&offset=0&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/contentdiscovery/livesuggestions?limit=8&offset=0&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/unread?limit=100&offset=0&before=975496760203952128&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/ack?ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,content-type,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "POST",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/ack?ngsw-bypass=true",
+      "method": "POST",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/unread?limit=100&offset=0&before=975412364729917440&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/unread?limit=100&offset=0&before=975412364729917440&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/ack?ngsw-bypass=true",
+      "method": "POST",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/ack?ngsw-bypass=true",
+      "method": "POST",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/ack?ngsw-bypass=true",
+      "method": "POST",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/unread?limit=100&offset=0&before=975318900965126145&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/unread?limit=100&offset=0&before=975318900965126145&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/ack?ngsw-bypass=true",
+      "method": "POST",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106121",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/versioning?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/account/me?ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/account/me?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106137506",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/unread?limit=100&offset=0&before=0&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/account//wallets?ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/settings?categoryIds=2000,12000,44000,5000&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/unread?limit=100&offset=0&before=0&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106131",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/account//wallets?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106131",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/settings?categoryIds=2000,12000,44000,5000&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106131",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/notifications/unack?ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/settings?categoryIds=5000&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/subscriptions?ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/orders/products?ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/intercom/authorize?ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/payments/wallets?ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/orders/products?ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/orders/products?ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/messaging/groups?sortOrder=1&flags=0&subscriptionTierId=&listIds=&search=&limit=20&offset=0&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/messaging/groups?sortOrder=1&flags=32&subscriptionTierId=&listIds=&search=&limit=10&offset=0&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/settings?categoryIds=4000&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/messaging/groups?sortOrder=1&flags=0&subscriptionTierId=&listIds=&search=&limit=20&offset=0&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/messaging/groups?sortOrder=1&flags=32&subscriptionTierId=&listIds=&search=&limit=10&offset=0&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/settings?categoryIds=4000&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/settings?categoryIds=5000&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106131",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/notifications/unack?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106131",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/orders/products?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106131",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/subscriptions?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106131",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/orders/products?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106131",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/intercom/authorize?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106131",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/orders/products?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106131",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/messaging/groups?sortOrder=1&flags=0&subscriptionTierId=&listIds=&search=&limit=20&offset=0&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106131",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/messaging/groups?sortOrder=1&flags=32&subscriptionTierId=&listIds=&search=&limit=10&offset=0&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106131",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/settings?categoryIds=4000&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106131",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/settings?categoryIds=4000&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106131",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/messaging/groups?sortOrder=1&flags=0&subscriptionTierId=&listIds=&search=&limit=20&offset=0&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106131",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/payments/wallets?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106131",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/messaging/groups?sortOrder=1&flags=32&subscriptionTierId=&listIds=&search=&limit=10&offset=0&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106131",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/unread?limit=100&offset=0&before=975607766829780992&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/unread?limit=100&offset=0&before=975607766829780992&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106131",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/unread?limit=100&offset=0&before=975560443428884481&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/unread?limit=100&offset=0&before=975560443428884481&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106131",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/unread?limit=100&offset=0&before=975496923291086848&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/ack?ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,content-type,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "POST",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/unread?limit=100&offset=0&before=975496923291086848&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106131",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/ack?ngsw-bypass=true",
+      "method": "POST",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106131",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/unread?limit=100&offset=0&before=975412909171564544&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/unread?limit=100&offset=0&before=975412909171564544&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106131",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/unread?limit=100&offset=0&before=975319230339620865&ngsw-bypass=true",
+      "method": "OPTIONS",
+      "headers": {
+        "accept": "*/*",
+        "access-control-request-headers": "authorization,fansly-client-check,fansly-client-id,fansly-client-ts,fansly-session-id",
+        "access-control-request-method": "GET",
+        "origin": "https://fansly.com",
+        "sec-fetch-mode": "cors",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "referer": "https://fansly.com/"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/message/unread?limit=100&offset=0&before=975319230339620865&ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "fansly-client-check": "[REDACTED]",
+        "authorization": "[REDACTED]",
+        "referer": "https://fansly.com/",
+        "accept-language": "en-US,en;q=0.9",
+        "fansly-client-id": "[REDACTED]",
+        "fansly-client-ts": "1794106131",
+        "fansly-session-id": "",
+        "accept": "application/json, text/plain, */*",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "cookie": "[REDACTED]",
+        "origin": "https://fansly.com"
+      }
+    },
+    {
+      "url": "https://apiv3.fansly.com/api/v1/versioning?ngsw-bypass=true",
+      "method": "GET",
+      "headers": {
+        "accept-language": "en-US,en;q=0.9",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "cookie": "[REDACTED]"
+      }
+    }
+  ]
+}
