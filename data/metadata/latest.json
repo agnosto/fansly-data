@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-11-10T13:49:30.036Z",
-  "jsFile": "2026-11-10T13-48-54-114Z_2376cd3d_main.1b164916107f4e40.js",
-  "hash": "2376cd3dae9d7ee017e75c7bdb2b0b52fe4f2b8fce475d56a07f43c0fa6893fc",
+  "timestamp": "2026-11-10T21:03:28.841Z",
+  "jsFile": "2026-11-10T21-02-55-117Z_ecb68dba_main.630e48d174ffdd03.js",
+  "hash": "ecb68dba0dc2280e8c3554c101e94117447000ff53304669e7282e4c76813601",
   "versionPlatform": "web",
   "version": "0.47.45",
   "latestVersion": "0.47.45",
-  "versionTimestamp": 1794318528265,
+  "versionTimestamp": 1794344574832,
   "checkKeys": [
     {
       "pattern": "Array Reverse",
@@ -13,7 +13,7 @@
     },
     {
       "pattern": "Other",
-      "value": "ge.join(\"-\")}isValid(ie){return!0}getDeviceId(){return this.deviceService?this.deviceService.getDeviceIdSync():\"\"}getSessionId(){if(!this.sessionService)return\"\""
+      "value": "de.join(\"-\")}isValid(J){return!0}getDeviceId(){return this.deviceService?this.deviceService.getDeviceIdSync():\"\"}getSessionId(){if(!this.sessionService)return\"\""
     }
   ],
   "headers": [
